@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * insertion_swap - swap nodes of 
+ * insertion_swap - swap nodes of
  * doubly linked list
  * maintain ascengding order
  * @n1: first node
@@ -48,7 +48,7 @@ void insertion_sort_list(listint_t **list)
 
 	current = *list;
 
-	while(current)
+	while (current)
 	{
 		previous = current->prev;
 		while (previous && previous->n > current->n)

@@ -2,8 +2,8 @@
 
 /**
  * swap - used to swap in partition function
- * @a: pointer to first element
- * @b: pointer to second element
+ * @num1: pointer to first element
+ * @num2: pointer to second element
  * Return: void
  */
 void swap(int *num1, int *num2)
@@ -53,7 +53,7 @@ size_t partition_array(int *arr, size_t low, size_t pt, size_t size)
  * qSort_helper - sorts left and right sections
  * @arr: pointer to array
  * @low: the start index
- * @end: the end index
+ * @high: the end index
  * @size: size of array
  * Return: void
  */
